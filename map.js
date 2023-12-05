@@ -12,3 +12,17 @@ movies.set(2029, "westword");
 
 val = movies.get(2020);
 console.log(val);
+// wea Map
+const cities = new Set();
+
+const newcastle = {city:"Newcastle"};
+const nairobi = {city:"Nairobi"};
+const newYork = {city:"New York"};
+const naivasha = {city:"Naivasha"};
+
+cities.add(nairobi, "Kenya");
+cities.add(naivasha, "Kenya");
+const city = cities.has(naivasha);
+console.log(cities);
+console.log("Set size",cities.size);
+console.log(cities.nairobi)
