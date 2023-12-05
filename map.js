@@ -10,8 +10,8 @@ movies.set(2027, "Shadow");
 movies.set(2028, "american gods");
 movies.set(2029, "westword");
 
-val = movies.get(2020);
-console.log(val);
+// val = movies.get(2020);
+// console.log(val);
 // wea Map
 const cities = new Set();
 
@@ -24,5 +24,6 @@ cities.add(nairobi, "Kenya");
 cities.add(naivasha, "Kenya");
 const city = cities.has(naivasha);
 console.log(cities);
-console.log("Set size",cities.size);
-console.log(cities.nairobi)
+cities.add(city, "Kenya");
+const val = cities.entries()
+console.log(val);
